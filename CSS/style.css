@@ -75,6 +75,7 @@ body {
 }
 
 .main-button {
+  cursor: pointer;
   font-weight: bold;
   font-family: inherit;
   font-size: 16px;
@@ -192,6 +193,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
+  cursor: pointer;
 }
 .gallery-filters-btn:focus,
 .gallery-filters-btn:hover {
