@@ -149,6 +149,10 @@ body {
   line-height: 1.71;
   color: var(--primary-title-color);
 }
+.footer-link-address:hover,
+.footer-link-address:focus {
+  color: var(--accent-color);
+}
 
 .footer {
   background-color: #2f303a;
@@ -159,6 +163,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel-link:hover,
+.footer-tel-link:focus {
+  color: var(--accent-color);
 }
 
 .foter-studio {
